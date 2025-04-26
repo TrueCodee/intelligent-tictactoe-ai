@@ -1,0 +1,27 @@
+{
+    "minimax": {
+        "nodes_evaluated": 2895,
+        "execution_time": 0.10944175720214844,
+        "move_times": [
+            0.06887412071228027,
+            0.03605246543884277,
+            0.004515171051025391,
+            0.0
+        ]
+    },
+    "alphabeta": {
+        "nodes_evaluated": 941,
+        "execution_time": 0.03841090202331543,
+        "move_times": [
+            0.028135061264038086,
+            0.009273529052734375,
+            0.0010023117065429688
+        ],
+        "pruned_branches": 233
+    },
+    "gemini": {
+        "nodes_evaluated": 0,
+        "execution_time": 0,
+        "move_times": []
+    }
+}
