@@ -36,7 +36,7 @@ You’ll be prompted to:
 - Choose Board Size (3x3 or 5x5)
 
 - Select AI depth (default: 4–9)
-
+---
 ## 🔑 Gemini API Setup
 1. Go to **config/gemini_config.json**
 2. Add your Gemini API key like this:
@@ -48,7 +48,7 @@ You’ll be prompted to:
 ```
 - You can also use a **.env** file with **GEMINI_API_KEY=your-key**
 If the key is missing or quota is exceeded, the Gemini agent will automatically fall back to random moves.
-
+---
 ## 📊 Benchmark Mode
 - Runs 5 games per AI matchup
 - Tracks:
@@ -57,12 +57,13 @@ If the key is missing or quota is exceeded, the Gemini agent will automatically 
   - Execution Time
 
   - Win/Draw Stats
-
+---
 To run:
 ```bash
 python src/main.py
 # Select Mode 6: Benchmark
 ```
+---
 ## 🌳 Tree Visualizations
 - Automatically saved under **results/visualizations/**
 
@@ -76,7 +77,7 @@ python src/main.py
 - Console logs with execution times
 
 - Visual game trees (Minimax vs Alpha-Beta)
-
+---
 ## 📚 References
 
 - Artificial Intelligence: A Modern Approach – Russell & Norvig
@@ -84,7 +85,7 @@ python src/main.py
 - Google Gemini API Docs
 
 - Python: **pygame**, **networkx**, **matplotlib**, **google-generativeai**
-
+---
 ## 💡 Future Ideas
 - Extend to 5x5 board with heuristics
 
@@ -93,3 +94,4 @@ python src/main.py
 - Build smarter Gemini prompts or retry handling
 
 - Upgrade GUI with animations and score tracking
+---
